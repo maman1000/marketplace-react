@@ -20,6 +20,7 @@ Project React sederhana yang dibuat menggunakan Vite.
 ```bash
 npm install
 npm run dev
+```
 
 ## Author
 
