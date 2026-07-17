@@ -9,11 +9,14 @@ Project React sederhana yang dibuat menggunakan Vite.
 - Featured Product
 - Trending Product
 - Footer
+- Fitur authentication (register & login)
+- Halaman untuk menampilkan daftar user
+- Halaman detail user
 
 ## Teknologi
 - React
 - Vite
-- CSS
+- Tailwind CSS
 
 ## Cara Menjalankan
 
