@@ -1,12 +1,31 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import "tailwindcss";
+
+body {
+  background: #f7f9fb;
+  color: #191c1e;
+  font-family: Inter, sans-serif;
 }
 
-html,
-body,
-#root {
-  width: 100%;
-  min-height: 100vh;
+html {
+  scroll-behavior: smooth;
+}
+
+.glass-card {
+  @apply bg-white/70 backdrop-blur-xl border border-slate-200 rounded-3xl;
+}
+
+.section {
+  @apply max-w-7xl mx-auto px-6 py-20;
+}
+
+.section-title {
+  @apply flex justify-between items-end mb-12;
+}
+
+.btn-primary {
+  @apply bg-indigo-900 text-white px-8 py-4 rounded-full hover:scale-105 transition;
+}
+
+.btn-outline {
+  @apply border border-slate-300 px-8 py-4 rounded-full hover:bg-slate-100 transition;
 }

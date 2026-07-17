@@ -25,10 +25,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.hero-container {
+/* .hero-container {
   padding: 24px 12px;
   position: relative;
-}
+} */
 
 .hero-container {
   background-color: #0b1023;
@@ -64,6 +64,15 @@ body {
   display: none;
 }
 
+/* .btn-login {
+  width: 84px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 16px;
+  border: none;
+  color: white;
+} */
+
 .btn-login {
   width: 84px;
   height: 40px;
@@ -71,6 +80,12 @@ body {
   border-radius: 16px;
   border: none;
   color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #0056d2;
 }
 
 .btn-navbar {
@@ -85,6 +100,22 @@ body {
   background-color: blue;
   border-radius: 16px;
   border: none;
+  color: white;
+}
+
+.btn-register {
+  width: 96px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid blue;
+  border-radius: 16px;
+  color: blue;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-register:hover {
+  background-color: blue;
   color: white;
 }
 
@@ -197,9 +228,9 @@ body {
   align-items: center;
 }
 
-.featured-product-card > div {
+/* .featured-product-card > div {
   flex: 1;
-}
+} */
 
 .featured-product-card {
   max-width: 1200px;
